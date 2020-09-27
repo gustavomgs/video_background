@@ -1,0 +1,70 @@
+.divLeft {
+	margin-top: -200px;
+	background-color:#376f33;
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: absolute;
+}
+.video{
+	margin-top: 100px;
+	width: 100%;
+	height: 100%;
+	padding-right: 5%;
+	float: right;
+}
+
+#spaceText {
+    padding-right: 16px;
+}
+
+.textDiv{
+	padding-top: 500px;
+	width: 100%;
+	height: 100%;
+	padding-right: 20%;
+	position: absolute;
+	background-color: #1e3815a2;
+   top: 0;
+   left: 0;
+   /*cor apenas para exmplo*/
+   color: #fff;
+}
+
+@media (min-width: 992px) {
+
+	.video{
+		margin-top: 100px;
+		width: 60%;
+		height: 100%;
+		padding-right: 5%;
+		float: right;
+	}
+
+	.divLeft {
+		margin-top: -200px;
+		background-color:#376f33;
+		width: 100%;
+		height: 100%;
+		float: right;
+		position: absolute;
+	}
+	
+	#spaceText {
+		padding-right: 16px;
+	}
+	
+	.textDiv{
+		padding-top: 500px;
+		padding-left: 10%;
+		padding-right: 50%;
+		width: 100%;
+		height: 100%;
+		
+		position: absolute;
+		background-color: #1e3815a2;
+	   top: 0;
+	   left: 0;
+	   /*cor apenas para exmplo*/
+	   color: #fff;
+	}
